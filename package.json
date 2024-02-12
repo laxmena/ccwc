@@ -1,0 +1,19 @@
+{
+  "name": "ccwc",
+  "version": "1.0.0",
+  "description": "coding challenge - wc tool",
+  "main": "./bin/index.js",
+  "bin": {
+    "ccwc": "./bin/index.js"
+  },
+  "scripts": {
+    "release": "npm -g install .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cachedfs": "^0.3.3",
+    "commander": "^12.0.0"
+  }
+}
